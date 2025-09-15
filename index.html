@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bandera de México</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="flag-container">
+    <h1>Bandera de México</h1>
+    <div class="controls-grid">
+      <div class="control-item">
+        <label>Esperanza (Verde): 
+          <div id="greenHex"></div>
+          <input type="range" id="greenRange" min="20" max="80" value="40">
+        </label>
+      </div>
+      <div class="control-item">
+        <label>Unidad: 
+          <div id="whiteHex">#FFFFFF</div>
+        </label>
+      </div>
+      <div class="control-item">
+        <label>Sangre de nuestros héroes (Rojo): 
+          <div id="redHex"></div>
+          <input type="range" id="redRange" min="20" max="80" value="45">
+        </label>
+      </div>
+    </div>
+    <div class="flag">
+      <div class="stripe" id="greenStripe"></div>
+      <div class="stripe" id="whiteStripe">
+        <div class="coat-of-arms">
+          @@@@@<br>
+          @@@@@<br>
+          @@@@@<br>
+          @@@@@<br>
+          @@@@@
+        </div>
+      </div>
+      <div class="stripe" id="redStripe"></div>
+    </div>
+    <!-- <div class="color-display">
+      <div class="color-box" id="greenBox"></div>
+      <div class="color-box" id="whiteBox"></div>
+      <div class="color-box" id="redBox"></div>
+    </div> -->
+    <div class="lorem-text">
+      <p id="loremArea">Vite Gomez Jordan Vicente 23200908 <br>Islas Rufino Francisco Gamael 23200850</p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

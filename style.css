@@ -1,0 +1,119 @@
+.flag-container {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+h1 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.controls-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.control-item {
+  padding: 5px;
+  background: #f9f9f9;
+  border-radius: 3px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.control-item label {
+  display: block;
+  font-size: 12px;
+}
+
+.control-item input[type="range"] {
+  width: 100px;
+  margin: 5px 0 0;
+}
+
+#greenHex, #redHex, #whiteHex {
+  font-family: monospace;
+  font-size: 12px;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+.flag {
+  display: flex;
+  width: 600px;
+  height: 400px;
+  margin: 10px auto;
+  border: 2px solid #000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.stripe {
+  flex: 1;
+  height: 100%;
+}
+
+#greenStripe {
+  background-color: hsl(120, 80%, 40%);
+}
+
+#whiteStripe {
+  background-color: #FFFFFF;
+  position: relative;
+}
+
+#redStripe {
+  background-color: hsl(0, 80%, 45%);
+}
+
+.coat-of-arms {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 16px;
+  color: #333;
+  line-height: 1;
+}
+
+.color-display {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 0;
+}
+
+.color-box {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #000;
+}
+
+#greenBox {
+  background-color: hsl(120, 80%, 40%);
+}
+
+#whiteBox {
+  background-color: #fff;
+}
+
+#redBox {
+  background-color: hsl(0, 80%, 45%);
+}
+
+.lorem-text {
+  margin-top: 10px;
+  padding: 10px;
+  background: #f0f0f0;
+  border-radius: 3px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+#loremArea {
+  font-size: 12px;
+  color: #666;
+  line-height: 1.4;
+}
